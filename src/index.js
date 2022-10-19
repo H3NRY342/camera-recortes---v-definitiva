@@ -5,6 +5,11 @@ import 'react-image-crop/dist/ReactCrop.css';
 
 import './App.css';
 
+//* agregar puntos de despliegue para limitar de manera mas precisa las facturas
+//* Guardar ese recorte en una variable para enviar al s3 de aws y procesarla 
+//* Invertigar manera para que funciona en mobil.
+//* Acoplar al flujo.
+
 class App extends PureComponent {
   state = {
     src: null,
